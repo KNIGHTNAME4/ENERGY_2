@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporación AUGE</title>
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+    <a href="index.html" class="logo"><img src="img/logo-a.png" alt="Logo AUGE"> CORPORACIÓN AUGE</a>
+    <div class="auth-buttons">
+      <button onclick="showAlert('¿Ya tienes una cuenta? ¡Inicia sesión!')">Iniciar Sesión</button>
+      <button onclick="showAlert('¿Aún no tienes cuenta? ¡Regístrate!')">Registrarse</button>
+    </div>
+  </header>
+
+  <nav id="sidebar" class="sidebar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#">Noticias</a></li>
+      <li><a href="#">Armas</a></li>
+      <li><a href="#">Exploración</a></li>
+      <li><a href="#">DerechosDeAutor</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Bienvenido a la Corporación AUGE</h1>
+    <p>Explora el universo, accede a tus armas, entérate de las últimas noticias y mucho más.</p>
+
+    <section class="planet-gallery">
+      <a href="#"><img src="img/planet1.jpg" alt="Planeta 1" /></a>
+      <a href="#"><img src="img/planet2.jpg" alt="Planeta 2" /></a>
+      <a href="#"><img src="img/planet3.jpg" alt="Planeta 3" /></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Corporación AUGE | contacto@auge.com | +51 999 999 999</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
